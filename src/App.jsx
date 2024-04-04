@@ -21,11 +21,11 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="detail/:id" element={<Detail />} />
-          <Route path="login" element={<SignIn />} />
-          <Route path="signup" element={<SignUp />} />
-          <Route path="categories" element={<Categories/>}/>
-          <Route path="contacts" element={<Contacts />} />
+          <Route path="/detail/:id" element={<Detail />} />
+          <Route path="/login" element={<SignIn />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="/categories" element={<Categories/>}/>
+          <Route path="/contact-us" element={<Contacts />} />
           
         </Routes>
         {drawer && <Cart />}
