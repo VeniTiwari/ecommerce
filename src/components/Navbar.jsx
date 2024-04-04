@@ -58,7 +58,7 @@ function Navbar() {
       <section className="relative mx-auto my-12">
         <nav className="flex justify-between  w-screen fixed z-50 top-0 bg-custom-white dark:bg-custom-dark ">
           <div className="px-5 xl:px-12 py-6 flex w-full items-center">
-            <a className="font-ibmplex text-lg" href="#">
+            <a className="font-ibmplex text-lg" href="/">
               Navdha
             </a>
 
@@ -69,17 +69,17 @@ function Navbar() {
                 </a>
               </li>
               <li>
-                <a className="hover:text-gray-600" href="#">
+                <a className="hover:text-gray-600" href="/categories">
                   Category
                 </a>
               </li>
               <li>
-                <a className="hover:text-gray-600" href="#">
+                <a className="hover:text-gray-600" href="/">
                   Collections
                 </a>
               </li>
               <li>
-                <a className="hover:text-gray-600" href="#">
+                <a className="hover:text-gray-600" href="/contact-us">
                   Contact Us
                 </a>
               </li>
